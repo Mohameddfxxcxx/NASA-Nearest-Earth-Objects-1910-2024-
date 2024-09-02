@@ -35,8 +35,8 @@ is_hazardous: Whether the NEO is hazardous (target variable)
 
 Loading Data: Read the dataset into a Pandas DataFrame.
 
-import pandas as pd
-df = pd.read_csv("/kaggle/input/nasa-nearest-earth-objects-1910-2024/nearest-earth-objects(1910-2024).csv")
+python<br>import pandas as pd<br>df = pd.read_csv("/kaggle/input/nasa-nearest-earth-objects-1910-2024/nearest-earth-objects(1910-2024).csv")<br>
+
 
 
 Handling Missing Values: Removed rows with missing values.
